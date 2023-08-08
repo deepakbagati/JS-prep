@@ -50,9 +50,9 @@ function addone(num){
     return num + 1
 }
 
-
+    6+6559498+++++++98++889+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++4984++++
 
 addTwo(5)
-const addTwo = function(num){
+const addTwo = function(num){// variables are more powerful in js it can hold functions,anything.So be careful while calling a function and call at appropriate place.
     return num + 2
 }
