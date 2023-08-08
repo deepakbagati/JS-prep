@@ -3,7 +3,7 @@
 
 // object literals
 
-const mySym = Symbol("key1")
+const mySym = Symbol("key1")///creating a symbol and it can be access by using [mySym],if you acces without using open bracket it will return a string.
 
 
 const JsUser = {
