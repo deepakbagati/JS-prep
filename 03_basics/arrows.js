@@ -1,13 +1,13 @@
-const user = {
-    username: "hitesh",
-    price: 999,
+// const user = {
+//     username: "hitesh",
+//     price: 999,
 
-    welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
-    }
+//     welcomeMessage: function() {
+//         console.log(`${this.username} , welcome to website`);
+//         console.log(this);
+//     }
 
-}
+// }
 
 // user.welcomeMessage()
 // user.username = "sam"
@@ -47,6 +47,10 @@ const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
 console.log(addTwo(3, 4))
+
+//to create arrow func ,,func me se uska naam hatao ()=>{
+    // aise ban jaata hai
+}
 
 
 // const myArray = [2, 5, 3, 7, 8]
