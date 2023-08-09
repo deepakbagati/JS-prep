@@ -21,12 +21,19 @@
 // } while (score <= 10);
 
 
-let myarr=[ "deepak","chetan","thakur"]
-let arr2=0;
-console.log(myarr.length)
-while(arr2<myarr.length){
-        console.log(`Value is ${myarr[arr2]}`);
-    arr2=arr2 + 1
+// let myarr=[ "deepak","chetan","thakur"]
+// let arr2=0;
+// console.log(myarr.length)
+// while(arr2<myarr.length){
+//         console.log(`Value is ${myarr[arr2]}`);
+//     arr2=arr2 + 1
+// }
+let myarr3 =["sky","surya","john"]
+
+do{
+    console.log(`Score is  ${myarr3[1]}`);
+    myarr3++;
 }
+while(myarr3.length<1);
 
 
