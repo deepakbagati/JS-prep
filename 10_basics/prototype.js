@@ -25,45 +25,45 @@ Object.prototype.hitesh = function(){
 Array.prototype.heyHitesh = function(){
     console.log(`Hitesh says hello`);
 }
-
-// heroPower.hitesh()
+heroPower.getSpiderPower()
+heroPower.hitesh()
 // myHeros.hitesh()
 // myHeros.heyHitesh()
 // heroPower.heyHitesh()
 
 // inheritance
 
-const User = {
-    name: "chai",
-    email: "chai@google.com"
-}
+// const User = {
+//     name: "chai",
+//     email: "chai@google.com"
+// }
 
-const Teacher = {
-    makeVideo: true
-}
+// const Teacher = {
+//     makeVideo: true
+// }
 
-const TeachingSupport = {
-    isAvailable: false
-}
+// const TeachingSupport = {
+//     isAvailable: false
+// }
 
-const TASupport = {
-    makeAssignment: 'JS assignment',
-    fullTime: true,
-    __proto__: TeachingSupport
-}
+// const TASupport = {
+//     makeAssignment: 'JS assignment',
+//     fullTime: true,
+//     __proto__: TeachingSupport
+// }
 
-Teacher.__proto__ = User
+// Teacher.__proto__ = User
 
-// modern syntax
-Object.setPrototypeOf(TeachingSupport, Teacher)
+// // modern syntax
+// Object.setPrototypeOf(TeachingSupport, Teacher)
 
-let anotherUsername = "ChaiAurCode     "
+// let anotherUsername = "ChaiAurCode     "
 
-String.prototype.trueLength = function(){
-    console.log(`${this}`);
-    console.log(`True length is: ${this.trim().length}`);
-}
+// String.prototype.trueLength = function(){
+//     console.log(`${this}`);
+//     console.log(`True length is: ${this.trim().length}`);
+// }
 
-anotherUsername.trueLength()
-"hitesh".trueLength()
-"iceTea".trueLength()
+// anotherUsername.trueLength()
+// "hitesh".trueLength()
+// "iceTea".trueLength()
