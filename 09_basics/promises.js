@@ -46,7 +46,7 @@ const promiseFour = new Promise(function(resolve, reject){
  .then((user) => {
     console.log(user);
     return user.username
-}).then((username) => {
+}).then((username) => {//jo uper return kiya hai wahi neeche then me pass keya hai.
     console.log(username);
 }).catch(function(error){
     console.log(error);
@@ -76,18 +76,18 @@ async function consumePromiseFive(){
 
 consumePromiseFive()
 
-// async function getAllUsers(){
-//     try {
-//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
+async function getAllUsers(){
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users')
 
-//         const data = await response.json()
-//         console.log(data);
-//     } catch (error) {
-//         console.log("E: ", error);
-//     }
-// }
+        const data = await response.json()
+        console.log(data);
+    } catch (error) {
+        console.log("E: ", error);
+    }
+}
 
-//getAllUsers()
+getAllUsers()
 
 fetch('https://api.github.com/users/hiteshchoudhary')
 .then((response) => {
@@ -98,5 +98,5 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 })
 .catch((error) => console.log(error))
 
-// promise.all
-// yes this is also available, kuch reading aap b kro.
+promise.all
+yes this is also available, kuch reading aap b kro.
